@@ -1,3 +1,6 @@
+
+//Scroll for browse-cars
+
 let left_scroll = document.getElementById('left_scroll');
 let right_scroll = document.getElementById('right_scroll');
 let cars = document.getElementsByClassName('cars')[0];
@@ -10,6 +13,8 @@ right_scroll.addEventListener('click', ()=>{
     cars.scrollLeft += 220;
    
 })
+
+//Scroll for browse-ad
 
 let left_scrolls = document.getElementById('left_scrolls');
 let right_scrolls = document.getElementById('right_scrolls');
@@ -24,6 +29,7 @@ right_scrolls.addEventListener('click', ()=>{
     
 })
 
+//Scroll for browse-destinations
 
 let left_scroll_3 = document.getElementById('left_scroll_3');
 let right_scroll_3 = document.getElementById('right_scroll_3');
@@ -38,6 +44,7 @@ right_scroll_3.addEventListener('click', ()=>{
     
 })
 
+//Scroll for browse-experiences
 
 let left_scroll_4 = document.getElementById('left_scroll_4');
 let right_scroll_4 = document.getElementById('right_scroll_4');
@@ -49,9 +56,10 @@ left_scroll_4.addEventListener('click', ()=>{
 
 right_scroll_4.addEventListener('click', ()=>{
     experiences.scrollLeft += 350;
-    console.log("hello")
+    
 })
 
+//Scroll for testimonials
 
 let left_scroll_5 = document.getElementById('left_scroll_5');
 let right_scroll_5 = document.getElementById('right_scroll_5');
@@ -63,9 +71,11 @@ left_scroll_5.addEventListener('click', ()=>{
 
 right_scroll_5.addEventListener('click', ()=>{
     testimonials.scrollLeft += 355;
-    console.log("hello")
+   
 })
 
+
+//JS for FAQ accordian
 
 var acc = document.getElementsByClassName("accordion");
 var i;
